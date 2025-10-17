@@ -4,8 +4,9 @@
   margin: 0 auto;
   margin-top: 40px;
   background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  border-radius: 10px 10px 0 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 100;
 }
 .container {
   display: flex;
@@ -25,32 +26,52 @@
 .logo {
   text-transform: uppercase;
 }
+.logo1 {
+  color: darkgray;
+}
 .header-actions {
   display: flex;
-  gap: 100px;
-  margin-right: 30px;
+  align-items: center;
+  gap: 35px;
+  margin-right: 50px;
 }
 .search-btn {
   position: relative;
+  display: flex;
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 19px;
+  color: gray;
+  gap: 5px;
 }
 .cart-btn {
   position: relative;
+  display: flex;
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 21px;
+  color: dimgray;
+  gap: 5px;
 }
 .favorites-btn {
   position: relative;
+  display: flex;
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 19px;
+  color: gray;
+  gap: 5px;
 }
 .profile-btn {
   position: relative;
+  display: flex;
   background: none;
   border: none;
   cursor: pointer;
+  font-size: 19px;
+  color: gray;
+  gap: 5px;
 }
