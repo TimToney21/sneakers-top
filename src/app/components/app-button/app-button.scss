@@ -8,7 +8,7 @@
 }
 .open-section {
   width: 960px;
-  height: 300px;
+  height: 500px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -18,10 +18,26 @@
   border-radius: 20px;
 }
 .open-button {
-  background: #A5D564;
   margin-right: 700px;
   margin-top: 200px;
   color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 60px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+.open-button-green {
+  background: #A5D564;
+}
+.open-button-gray {
+  background: #a0a0a0;
+}
+.close-button  {
+  color: black;
   border: none;
   border-radius: 50px;
   padding: 20px 60px;
