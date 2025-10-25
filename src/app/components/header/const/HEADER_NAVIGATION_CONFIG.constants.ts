@@ -1,18 +1,18 @@
 export const HEADER_NAVIGATION_CONFIG = [
   {
-    name: 'search',
+    name: 'Search',
     cssClass: 'search-btn',
   },
   {
-    name: 'cart',
+    name: 'Cart',
     cssClass: 'cart-btn',
   },
   {
-    name: 'favorites',
+    name: 'Favorites',
     cssClass: 'favorites-btn',
   },
   {
-    name: 'profile',
+    name: 'Profile',
     cssClass: 'profile-btn',
   }
 ]

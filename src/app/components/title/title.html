@@ -1,6 +1,6 @@
 <div class="collection">
-  <div class="new-collection">
+  <div class="new-collection" [ngClass]="{
+  'new-collection-text' : type() === 'default'}">
     Новая коллекция
-    <button class="press-f">Press F</button>
   </div>
 </div>
