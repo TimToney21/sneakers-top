@@ -12,4 +12,7 @@ import {Title} from './components/title/title';
 })
 export class App {
   protected readonly title = signal('sneakers-top');
+  recieveMessage(message: string) {
+    console.log(message);
+  }
 }

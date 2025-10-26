@@ -1,4 +1,4 @@
-import {Component, input} from '@angular/core';
+import {Component, input, output} from '@angular/core';
 import {NgClass} from '@angular/common';
 
 @Component({
@@ -11,4 +11,8 @@ import {NgClass} from '@angular/common';
 })
 export class AppButton {
 type = input('primary')
+buttonEvent = output<string>()
+  sendMessageToParent() {
+    this.buttonEvent.emit('КупитьКупитьКупить');
+  }
 }

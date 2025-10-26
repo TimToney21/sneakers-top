@@ -1,4 +1,6 @@
 <app-header></app-header>
-<app-app-button [type]="'primary'"></app-app-button>
+<app-app-button [type]="'primary'"
+  (buttonEvent)="recieveMessage($event)"
+></app-app-button>
 <app-title [type]="'default'"></app-title>
 <router-outlet />
