@@ -10,5 +10,5 @@ import {NgClass} from '@angular/common';
   styleUrl: './title.scss'
 })
 export class Title {
-type = input('default')
+text = input<string>();
 }
