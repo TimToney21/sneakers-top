@@ -8,7 +8,8 @@
       </div>
     </div>
     <div class="header-actions">
-      <button class="search-btn">
+      <button class="search-btn"
+      (click)="searchClick()">
         <img src="/poisk.svg" alt="search" height="20" width="20">
         Search</button>
       <button class="cart-btn">
@@ -22,7 +23,7 @@
         Log In</button>
     </div>
     @for (buttons of navigationConfig; track buttons.name) {
-      <li class="buttons">{{buttons.name}}</li>
+      <button class="buttons">{{buttons.name}}</button>
     }
   </div>
 </header>

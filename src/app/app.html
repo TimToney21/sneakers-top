@@ -1,4 +1,4 @@
-<app-header></app-header>
+<app-header (buttonEvent)="searchMessage($event)"></app-header>
 <app-app-button [type]="'primary'"
   (buttonEvent)="recieveMessage($event)"
 ></app-app-button>

@@ -15,4 +15,7 @@ export class App {
   recieveMessage(message: string) {
     console.log(message);
   }
+  searchMessage(message: string) {
+    console.log(message);
+  }
 }

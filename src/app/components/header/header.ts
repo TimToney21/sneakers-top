@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, output} from '@angular/core';
 import {NgOptimizedImage} from '@angular/common';
 import {HEADER_NAVIGATION_CONFIG} from './const/HEADER_NAVIGATION_CONFIG.constants';
 
@@ -10,4 +10,8 @@ import {HEADER_NAVIGATION_CONFIG} from './const/HEADER_NAVIGATION_CONFIG.constan
 })
 export class Header {
 navigationConfig = HEADER_NAVIGATION_CONFIG
+  buttonEvent = output<string>()
+  searchClick() {
+    this.buttonEvent.emit('SearchSearchSearch')
+  }
 }
