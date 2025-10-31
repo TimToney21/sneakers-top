@@ -18,4 +18,10 @@ export class App {
   searchMessage(message: string) {
     console.log(message);
   }
+  favoritesMessage(message: string) {
+    console.log(message);
+  }
+  profileMessage(message: string) {
+    console.log(message);
+  }
 }

@@ -1,4 +1,8 @@
-<app-header (buttonEvent)="searchMessage($event)"></app-header>
+<app-header
+  (buttonEvent)="searchMessage($event)"
+  (buttonEvent1)="favoritesMessage($event)"
+  (buttonEvent2)="profileMessage($event)"
+></app-header>
 <app-app-button [type]="'primary'"
   (buttonEvent)="recieveMessage($event)"
 ></app-app-button>

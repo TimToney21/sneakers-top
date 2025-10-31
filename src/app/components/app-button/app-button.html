@@ -1,14 +1,7 @@
 <div class="home-page">
-  <div class="open-section">
-    <div class="open-section-content">
-      <button class="open-button" [ngClass]="[
-      type() ==='primary' ? 'open-button-green' : 'open-button-gray'
-      ]"
-      (click)="sendMessageToParent()">Купить</button>
-      <button class="close-button" [ngClass]="{
-      'close-button-gray' : type() ==='primary'
-      }">Продать</button>
-    </div>
-  </div>
-
+  <button class="open-button" [ngClass]="[
+    type() ==='primary' ? 'open-button-green' : 'open-button-gray'
+    ]" (click)="sendMessageToParent()">
+    Купить
+  </button>
 </div>

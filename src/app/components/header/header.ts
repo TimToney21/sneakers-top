@@ -14,4 +14,12 @@ navigationConfig = HEADER_NAVIGATION_CONFIG
   searchClick() {
     this.buttonEvent.emit('SearchSearchSearch')
   }
+  buttonEvent1 = output<string>()
+  favoritesClick() {
+    this.buttonEvent1.emit('FavoritesFavoritesFavorites')
+  }
+  buttonEvent2 = output<string>()
+  profileClick() {
+    this.buttonEvent2.emit('ProfileProfileProfile')
+  }
 }
